@@ -89,22 +89,22 @@ function Login(props) {
     <div className="login__container">
       <div className="login__welcome">
         <div className="login__logo">
-          <img src={logoBlack} alt="Uber Clone" />
+          <img src={logoBlack} alt="JuApp" />
         </div>
-        <p>Get moving with Ober</p>
+        <p>Get moving with Ju</p>
       </div>
       <div className="login__form-container">
         <div className="login__form">
           <input
             type="text"
-            placeholder="Email or phone number"
+            placeholder="Email or Phone Number"
             ref={emailRef}
           />
           <input type="password" placeholder="Password" ref={passwordRef} />
           <button className="login__submit-btn" onClick={login}>
             Login
           </button>
-          <span className="login__forgot-password">Forgot password?</span>
+          <span className="login__forgot-password">Forgot Password?</span>
           <span className="login__signup" onClick={() => toggleModal(true)}>Create New Account</span>
         </div>
       </div>
